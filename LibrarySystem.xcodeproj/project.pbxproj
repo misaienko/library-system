@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8449D8F02BF15C10005C3C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8449D8EF2BF15C10005C3C30 /* main.cpp */; };
+		8449D9002BF15FBA005C3C30 /* Book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8449D8FE2BF15FBA005C3C30 /* Book.cpp */; };
+		8449D9032BF15FDA005C3C30 /* Library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8449D9012BF15FDA005C3C30 /* Library.cpp */; };
+		84BCDB8A2BF27FE500635AB5 /* booksData.json in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 8449D8FA2BF15D7C005C3C30 /* booksData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +23,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		84BCDB892BF27FAD00635AB5 /* Copy Bundle Resources */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				84BCDB8A2BF27FE500635AB5 /* booksData.json in Copy Bundle Resources */,
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8449D8EC2BF15C10005C3C30 /* LibrarySystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LibrarySystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		8449D8EF2BF15C10005C3C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8449D8F62BF15D4E005C3C30 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		8449D8FA2BF15D7C005C3C30 /* booksData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = booksData.json; sourceTree = "<group>"; };
+		8449D8FE2BF15FBA005C3C30 /* Book.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Book.cpp; sourceTree = "<group>"; };
+		8449D8FF2BF15FBA005C3C30 /* Book.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Book.hpp; sourceTree = "<group>"; };
+		8449D9012BF15FDA005C3C30 /* Library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Library.cpp; sourceTree = "<group>"; };
+		8449D9022BF15FDA005C3C30 /* Library.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Library.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,12 @@
 			isa = PBXGroup;
 			children = (
 				8449D8EF2BF15C10005C3C30 /* main.cpp */,
+				8449D8FE2BF15FBA005C3C30 /* Book.cpp */,
+				8449D8FF2BF15FBA005C3C30 /* Book.hpp */,
+				8449D9012BF15FDA005C3C30 /* Library.cpp */,
+				8449D9022BF15FDA005C3C30 /* Library.hpp */,
+				8449D8F62BF15D4E005C3C30 /* json.hpp */,
+				8449D8FA2BF15D7C005C3C30 /* booksData.json */,
 			);
 			path = LibrarySystem;
 			sourceTree = "<group>";
@@ -72,6 +98,7 @@
 				8449D8E82BF15C10005C3C30 /* Sources */,
 				8449D8E92BF15C10005C3C30 /* Frameworks */,
 				8449D8EA2BF15C10005C3C30 /* CopyFiles */,
+				84BCDB892BF27FAD00635AB5 /* Copy Bundle Resources */,
 			);
 			buildRules = (
 			);
@@ -119,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8449D9002BF15FBA005C3C30 /* Book.cpp in Sources */,
+				8449D9032BF15FDA005C3C30 /* Library.cpp in Sources */,
 				8449D8F02BF15C10005C3C30 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

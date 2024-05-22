@@ -1,0 +1,63 @@
+[
+    {
+        "title": "American Psycho",
+        "author": "Bret Easton",
+        "isbn": "1234",
+        "isAvailable": true
+    },
+    {
+        "title": "The Art of War",
+        "author": "Sun Tzu",
+        "isbn": "5678",
+        "isAvailable": true
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "isbn": "9101",
+        "isAvailable": true
+    },
+    {
+        "title": "The Mind of Napoleon",
+        "author": "Christopher Herold",
+        "isbn": "1213",
+        "isAvailable": true
+    },
+    {
+        "title": "Demon Copperhead",
+        "author": "Barbara Kingsolver",
+        "isbn": "1415",
+        "isAvailable": true
+    },
+    {
+        "title": "The Bee Sting",
+        "author": "Paul Murray",
+        "isbn": "1617",
+        "isAvailable": true
+    },
+    {
+        "title": "The Women",
+        "author": "Kristin Hannah",
+        "isbn": "7658",
+        "isAvailable": true
+    },
+    {
+        "title": "Tom Lake",
+        "author": "Ann Patchett",
+        "isbn": "1819",
+        "isAvailable": true
+    },
+    {
+        "title": "The Fraud",
+        "author": "Zadie Smith",
+        "isbn": "2821",
+        "isAvailable": true
+    },
+    {
+        "title": "Madness",
+        "author": "Antonia Hylton",
+        "isbn": "2722",
+        "isAvailable": true
+    }
+]
+
