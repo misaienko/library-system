@@ -1,4 +1,4 @@
-### Sample Project for demonstrating C++ language usage - Library Management System
+### Sample Project for demonstrating C++ language usage 'Library Management System'
 
 It serves as a comprehensive platform for managing book reservations, check-outs, and returns.
 
